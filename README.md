@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Blog App – Frontend Task (Next.js 14)
 
-## Getting Started
+This project is a **blog listing application** built as part of a frontend task.
+It follows all given constraints and includes additional UI enhancements.
 
-First, run the development server:
+---
+
+##  Live Demo
+
+👉 https://your-vercel-link.vercel.app
+
+---
+
+##  Task Requirements Implemented
+
+### 1. Constraints
+
+* ✅ Built using **Next.js 14 (App Router)**
+* ✅ **No Client Components used** (fully server-side rendered)
+* ✅ Clean, modular, and reusable code structure
+
+---
+
+### 2. Features
+
+#### 📰 Blog Listing Page
+
+* Displays blogs in a **3-column responsive grid**
+* Clean card UI with hover effects
+* Clicking a card navigates to blog detail page
+
+#### 📄 Blog Detail Page (Dynamic Route)
+
+* Dynamic routing using:
+
+  ```
+  /blog/[slug]
+  ```
+* Displays:
+
+  * Blog image
+  * Title
+  * Category
+  * Date
+  * Full content (HTML rendered)
+
+---
+
+#### 🔢 Pagination
+
+* Custom pagination implemented
+* Handles navigation between pages
+* Shows current page state
+
+---
+
+#### 📌 Sticky Header
+
+* Header remains fixed while scrolling
+* Includes navigation links and CTA
+
+---
+
+### 3. Enhancements 
+
+*  **Gradient hover effects** on blog cards 
+*  **Dynamic title color change on hover**
+*  Smooth animations and transitions
+*  Fully responsive layout
+*  Reusable components (Header, BlogCard, Pagination)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Next.js 14 (App Router)**
+* **React (Server Components)**
+* **CSS (Custom styling)**
+* **Fetch API (Server-side data fetching)**
+
+---
+
+## 🌐 API Used
+
+* https://api.slingacademy.com/v1/sample-data/blog-posts
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/blog-app.git
+cd blog-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit 👉 http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Folder Structure
 
-## Learn More
+```bash
+app/
+│
+├── blog/[slug]/page.js     # Dynamic blog page
+├── components/
+│   ├── BlogCard.js
+│   ├── Header.js
+│   └── Pagination.js
+│
+├── globals.css
+├── layout.js
+└── page.js                # Blog listing page
 
-To learn more about Next.js, take a look at the following resources:
+lib/
+└── api.js                 # API calls
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Key Highlights 
 
-## Deploy on Vercel
+* Proper use of **Server Components (no client-side logic)**
+* Clean and scalable architecture
+* Dynamic routing implemented 
+* Pagination handled efficiently
+* UI enhancements without breaking constraints
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📄 License
+
+This project is open-source under the MIT License.
