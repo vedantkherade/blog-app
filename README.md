@@ -5,19 +5,13 @@ It follows all given constraints and includes additional UI enhancements.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 👉 https://your-vercel-link.vercel.app
 
 ---
 
-## 📂 GitHub Repository
-
-👉 https://github.com/your-username/blog-app
-
----
-
-## ✅ Task Requirements Implemented
+##  Task Requirements Implemented
 
 ### 1. Constraints
 
@@ -67,13 +61,13 @@ It follows all given constraints and includes additional UI enhancements.
 
 ---
 
-### 3. Enhancements (Bonus Points)
+### 3. Enhancements 
 
-* 🎨 **Gradient hover effects** on blog cards (only on first page)
-* 🎯 **Dynamic title color change on hover**
-* ✨ Smooth animations and transitions
-* 📱 Fully responsive layout
-* 🧩 Reusable components (Header, BlogCard, Pagination)
+*  **Gradient hover effects** on blog cards 
+*  **Dynamic title color change on hover**
+*  Smooth animations and transitions
+*  Fully responsive layout
+*  Reusable components (Header, BlogCard, Pagination)
 
 ---
 
@@ -89,8 +83,6 @@ It follows all given constraints and includes additional UI enhancements.
 ## 🌐 API Used
 
 * https://api.slingacademy.com/v1/sample-data/blog-posts
-
-(Fallback: Spaceflight News API)
 
 ---
 
@@ -140,25 +132,16 @@ lib/
 
 ---
 
-## 📌 Key Highlights for Evaluation
+## 📌 Key Highlights 
 
 * Proper use of **Server Components (no client-side logic)**
 * Clean and scalable architecture
-* Dynamic routing implemented correctly
+* Dynamic routing implemented 
 * Pagination handled efficiently
 * UI enhancements without breaking constraints
 
 ---
 
-
-## 🔮 Future Improvements
-
-* Skeleton loaders for better UX
-* Image optimization using `next/image`
-* SEO improvements using `generateMetadata`
-* Search and filtering functionality
-
----
 
 ## 📄 License
 
